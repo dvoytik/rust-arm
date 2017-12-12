@@ -1,0 +1,18 @@
+[package]
+name = "arm"
+version = "0.0.1"
+authors = ["Dmitry Voytik <voytikd@gmail.com>"]
+description = "Low level abstraction of ARM architecture specific features."
+license = "MIT"
+homepage = "https://github.com/voyt/rust-arm"
+repository = "https://github.com/voyt/rust-arm"
+#documentation = "TODO"
+readme = "README.md"
+keywords = ["arm", "armv7", "armv8", "asm", "os"]
+categories = ["embedded", "no-std"]
+build="build.rs"
+
+[lib]
+crate-type = ["rlib"]
+
+[dependencies]

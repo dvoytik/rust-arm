@@ -5,7 +5,7 @@ fn main() {
         expect("TARGET env var is not defined");
 
     if !target.starts_with("arm") {
-        panic!("Only ARM architecture is supported. \
+        println!("cargo:warning=Only ARM architecture is supported. \
                Please consult README.md for building instructions.")
     }
 
